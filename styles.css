@@ -1,9 +1,12 @@
 body {
-    background-color: gray;
+    background-color: grey;
     width: 100%;
-    max-width: 1024px;
+    max-width: 500px;
     margin: 0 auto;
     font-size: large;
+    border: 10px red;
+    padding: 10px;
+    display: block;
 }
 
 h1 {
@@ -11,7 +14,26 @@ h1 {
     text-align: center;
 }
 
-img {
+h2 {
+    text-align: center;
+}
+
+#imgLogo {
     max-width: 100%;
     height: auto;
+}
+
+.places {
+    border: 10px red;
+    border-style: ridge;
+    background-color: white;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: square;
+    display: block;
+    border: 5px blue;
+    border-style: double;
+    background-color: green;
 }
